@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="Hello, jlox">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jlox.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jlox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TokenType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jlox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -58,8 +57,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664782415284</updated>
-      <workItem from="1664782422400" duration="251000" />
+      <workItem from="1664782422400" duration="3341000" />
     </task>
+    <task id="LOCAL-00001" summary="Hello, jlox">
+      <created>1664782681215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664782681215</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
