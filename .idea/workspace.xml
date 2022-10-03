@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="Added statement AST">
+    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="Interpreting expression and print statements!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenerateAst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stmt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <recent name="C:\Users\joshu\IdeaProjects\jlox\tools\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lox">
+  <component name="RunManager" selected="Application.GenerateAst">
     <configuration name="AstPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AstPrinter" />
       <module name="jlox" />
@@ -72,7 +74,7 @@
     <configuration name="GenerateAst" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenerateAst" />
       <module name="jlox" />
-      <option name="PROGRAM_PARAMETERS" value="./" />
+      <option name="PROGRAM_PARAMETERS" value="./src" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664782415284</updated>
-      <workItem from="1664782422400" duration="19060000" />
+      <workItem from="1664782422400" duration="20223000" />
     </task>
     <task id="LOCAL-00001" summary="Hello, jlox">
       <created>1664782681215</created>
@@ -149,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664820987595</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Interpreting expression and print statements!">
+      <created>1664821888470</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664821888470</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +184,7 @@
     <MESSAGE value="Parsing expressions" />
     <MESSAGE value="Interpreting expressions" />
     <MESSAGE value="Added statement AST" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added statement AST" />
+    <MESSAGE value="Interpreting expression and print statements!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interpreting expression and print statements!" />
   </component>
 </project>

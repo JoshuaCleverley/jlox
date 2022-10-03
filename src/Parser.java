@@ -14,10 +14,32 @@ public class Parser {
         List<Stmt> statements = new ArrayList<>();
 
         while (!isAtEnd()) {
-            statements.add(statement());
+            statements.add(declaration());
         }
 
         return statements;
+    }
+
+    private Stmt declaration() {
+        try {
+            if (match(TokenType.LET)) return letDeclaration();
+            return statement();
+        } catch (ParseError error) {
+            synchronize();
+            return null;
+        }
+    }
+
+    private Stmt letDeclaration() {
+        Token name = consume(TokenType.IDENTIFIER, "Expect variable name");
+
+        Expr initializer = null;
+        if (match(TokenType.EQUAL)) {
+            initializer = expression();
+        }
+
+        consume(TokenType.SEMICOLON, "Expect ';' after variable declaration");
+        return new Stmt.Let(name, initializer);
     }
 
     private Stmt statement() {
@@ -108,6 +130,10 @@ public class Parser {
             return new Expr.Literal(previous().literal);
         }
 
+        if (match(TokenType.IDENTIFIER)) {
+            return new Expr.Variable(previous());
+        }
+
         if (match(TokenType.LEFT_PAREN)) {
             Expr expr = expression();
             consume(TokenType.RIGHT_PAREN, "Expect ')' after expression");
@@ -135,6 +161,28 @@ public class Parser {
     private ParseError error(Token token, String message) {
         Lox.error(token, message);
         return new ParseError();
+    }
+
+    private void synchronize() {
+        advance();
+        while (!isAtEnd()) {
+            if (previous().type == TokenType.SEMICOLON) return;
+
+            switch (peek().type) {
+                case CLASS:
+                case FN:
+                case LET:
+                case FOR:
+                case IF:
+                case WHILE:
+                case PRINT:
+                case RETURN:
+                    return;
+
+            }
+
+            advance();
+        }
     }
 
     private boolean check(TokenType type) {
