@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="Beginnings of scanner and tokens">
+    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="Completed scanner (for now)">
+      <change afterPath="$PROJECT_DIR$/src/AstPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Expr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/src/GenerateAst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/tools.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TokenType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TokenType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +41,53 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Lox" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lox" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joshu\IdeaProjects\jlox\src" />
+      <recent name="C:\Users\joshu\IdeaProjects\jlox\tools\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AstPrinter">
+    <configuration name="AstPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AstPrinter" />
       <module name="jlox" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\joshu\Desktop\loxtest.lox" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GenerateAst" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenerateAst" />
+      <module name="tools" />
+      <option name="PROGRAM_PARAMETERS" value="./" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lox" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lox" />
+      <module name="jlox" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AstPrinter" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664782415284</updated>
-      <workItem from="1664782422400" duration="7070000" />
+      <workItem from="1664782422400" duration="11009000" />
     </task>
     <task id="LOCAL-00001" summary="Hello, jlox">
       <created>1664782681215</created>
@@ -82,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664791587421</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Completed scanner (for now)">
+      <created>1664795383554</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664795383554</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,8 +138,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Hello, jlox" />
     <MESSAGE value="Beginnings of scanner and tokens" />
-    <option name="LAST_COMMIT_MESSAGE" value="Beginnings of scanner and tokens" />
+    <MESSAGE value="Completed scanner (for now)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed scanner (for now)" />
   </component>
 </project>
