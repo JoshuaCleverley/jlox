@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="Mutable global variables">
+    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="Scope-tastic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenerateAst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser.java" afterDir="false" />
@@ -67,7 +67,7 @@
       <recent name="C:\Users\joshu\IdeaProjects\jlox\tools\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lox">
+  <component name="RunManager" selected="Application.GenerateAst">
     <configuration name="AstPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AstPrinter" />
       <module name="jlox" />
@@ -105,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664782415284</updated>
       <workItem from="1664782422400" duration="21928000" />
-      <workItem from="1664824625500" duration="1847000" />
+      <workItem from="1664824625500" duration="3290000" />
     </task>
     <task id="LOCAL-00001" summary="Hello, jlox">
       <created>1664782681215</created>
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664824466576</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Scope-tastic">
+      <created>1664826523124</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664826523124</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +229,7 @@
     <MESSAGE value="Set up Environment.java" />
     <MESSAGE value="Read and write immutable global variables" />
     <MESSAGE value="Mutable global variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mutable global variables" />
+    <MESSAGE value="Scope-tastic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scope-tastic" />
   </component>
 </project>
