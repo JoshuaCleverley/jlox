@@ -7,13 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="Creating instances + adjusted toString of functions and class">
+    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="Instance properties and fields">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenerateAst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoxClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoxClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LoxInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoxInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Resolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resolver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664782415284</updated>
       <workItem from="1664782422400" duration="21928000" />
-      <workItem from="1664824625500" duration="20553000" />
+      <workItem from="1664824625500" duration="21301000" />
     </task>
     <task id="LOCAL-00001" summary="Hello, jlox">
       <created>1664782681215</created>
@@ -284,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664909250917</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Instance properties and fields">
+      <created>1664910542072</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1664910542072</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +308,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Hello, jlox" />
     <MESSAGE value="Beginnings of scanner and tokens" />
     <MESSAGE value="Completed scanner (for now)" />
     <MESSAGE value="AST" />
@@ -328,7 +332,8 @@
     <MESSAGE value="Add static analysis using Resolver" />
     <MESSAGE value="Class declaration" />
     <MESSAGE value="Creating instances + adjusted toString of functions and class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating instances + adjusted toString of functions and class" />
+    <MESSAGE value="Instance properties and fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="Instance properties and fields" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
