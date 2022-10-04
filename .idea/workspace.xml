@@ -7,10 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="check 'this' is being used within a function">
+    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="Contructor using 'init'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoxClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoxClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LoxFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoxFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resolver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664782415284</updated>
       <workItem from="1664782422400" duration="21928000" />
-      <workItem from="1664824625500" duration="23146000" />
+      <workItem from="1664824625500" duration="23908000" />
     </task>
     <task id="LOCAL-00001" summary="Hello, jlox">
       <created>1664782681215</created>
@@ -309,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664912749783</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Contructor using 'init'">
+      <created>1664913105587</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1664913105587</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +336,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Parsing expressions" />
     <MESSAGE value="Interpreting expressions" />
     <MESSAGE value="Added statement AST" />
     <MESSAGE value="Interpreting expression and print statements!" />
@@ -353,7 +360,8 @@
     <MESSAGE value="Methods" />
     <MESSAGE value="'this' keyword in methods" />
     <MESSAGE value="check 'this' is being used within a function" />
-    <option name="LAST_COMMIT_MESSAGE" value="check 'this' is being used within a function" />
+    <MESSAGE value="Contructor using 'init'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contructor using 'init'" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
