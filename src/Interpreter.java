@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Interpreter implements Expr.Visitor<Object>, Stmt.Visitor<Void> {
 
@@ -19,7 +20,19 @@ public class Interpreter implements Expr.Visitor<Object>, Stmt.Visitor<Void> {
             @Override
             public int arity() { return 0; }
             @Override
-            public String toString() { return "<native fn>"; }
+            public String toString() { return "<native fn: clock>"; }
+        });
+        globals.define("input", new LoxCallable() {
+            @Override
+            public Object call(Interpreter interpreter, List<Object> arguments) {
+                Scanner scanner = new Scanner(System.in);
+                return scanner.nextLine();
+            }
+
+            @Override
+            public int arity() { return 0; }
+            @Override
+            public String toString() { return "<native fn: input>"; }
         });
     }
 
@@ -49,7 +62,7 @@ public class Interpreter implements Expr.Visitor<Object>, Stmt.Visitor<Void> {
     @Override
     public Void visitPrintStmt(Stmt.Print stmt) {
         Object value = evaluate(stmt.expression);
-        System.out.println(stringify(value));
+        System.out.printf(stringify(value));
         return null;
     }
 
