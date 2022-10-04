@@ -7,9 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="Functions">
+    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="clock() native fn">
+      <change afterPath="$PROJECT_DIR$/src/LoxFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenerateAst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stmt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +87,7 @@
     <configuration name="Lox" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lox" />
       <module name="jlox" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Users\joshu\Desktop\test_code.txt&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664782415284</updated>
       <workItem from="1664782422400" duration="21928000" />
-      <workItem from="1664824625500" duration="9979000" />
+      <workItem from="1664824625500" duration="11053000" />
     </task>
     <task id="LOCAL-00001" summary="Hello, jlox">
       <created>1664782681215</created>
@@ -230,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664886512689</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="clock() native fn">
+      <created>1664886666981</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1664886666981</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +279,8 @@
     <MESSAGE value="Allow assignment to outer scope from inner scope, but not definition" />
     <MESSAGE value="For loops = syntactic sugar" />
     <MESSAGE value="Functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functions" />
+    <MESSAGE value="clock() native fn" />
+    <option name="LAST_COMMIT_MESSAGE" value="clock() native fn" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
