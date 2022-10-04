@@ -7,14 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="Methods">
+    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="'this' keyword in methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenerateAst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoxFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoxFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoxInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoxInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Resolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resolver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664782415284</updated>
       <workItem from="1664782422400" duration="21928000" />
-      <workItem from="1664824625500" duration="22407000" />
+      <workItem from="1664824625500" duration="22701000" />
     </task>
     <task id="LOCAL-00001" summary="Hello, jlox">
       <created>1664782681215</created>
@@ -300,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664911229215</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="'this' keyword in methods">
+      <created>1664912393995</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1664912393995</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +320,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Completed scanner (for now)" />
     <MESSAGE value="AST" />
     <MESSAGE value="Parsing expressions" />
     <MESSAGE value="Interpreting expressions" />
@@ -344,7 +344,8 @@
     <MESSAGE value="Creating instances + adjusted toString of functions and class" />
     <MESSAGE value="Instance properties and fields" />
     <MESSAGE value="Methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Methods" />
+    <MESSAGE value="'this' keyword in methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="'this' keyword in methods" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
