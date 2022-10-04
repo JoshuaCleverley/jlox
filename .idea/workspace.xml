@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="Scope-tastic">
+    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="If-else statement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenerateAst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser.java" afterDir="false" />
@@ -105,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664782415284</updated>
       <workItem from="1664782422400" duration="21928000" />
-      <workItem from="1664824625500" duration="3290000" />
+      <workItem from="1664824625500" duration="4223000" />
     </task>
     <task id="LOCAL-00001" summary="Hello, jlox">
       <created>1664782681215</created>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664826523124</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="If-else statement">
+      <created>1664852555108</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664852555108</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +236,7 @@
     <MESSAGE value="Read and write immutable global variables" />
     <MESSAGE value="Mutable global variables" />
     <MESSAGE value="Scope-tastic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scope-tastic" />
+    <MESSAGE value="If-else statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="If-else statement" />
   </component>
 </project>
