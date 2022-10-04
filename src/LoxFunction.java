@@ -10,7 +10,7 @@ public class LoxFunction implements LoxCallable {
         this.closure = closure;
     }
 
-    public Object bind(LoxInstance instance) {
+    public LoxFunction bind(LoxInstance instance) {
         Environment environment = new Environment(closure);
         environment.define("this", instance);
         return new LoxFunction(declaration, environment);
