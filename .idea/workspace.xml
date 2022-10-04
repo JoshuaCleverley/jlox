@@ -7,14 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="'init' can only return 'this'">
+    <list default="true" id="a44fc8c1-417d-4d5e-8c2a-1b07441b9503" name="Changes" comment="Add superclasses (no inheritance yet)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenerateAst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LoxClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoxClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Resolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stmt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664782415284</updated>
       <workItem from="1664782422400" duration="21928000" />
-      <workItem from="1664824625500" duration="25498000" />
+      <workItem from="1664824625500" duration="26769000" />
     </task>
     <task id="LOCAL-00001" summary="Hello, jlox">
       <created>1664782681215</created>
@@ -327,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664913833895</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Add superclasses (no inheritance yet)">
+      <created>1664916610021</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1664916610021</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +353,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added statement AST" />
     <MESSAGE value="Interpreting expression and print statements!" />
     <MESSAGE value="Parsing variables" />
     <MESSAGE value="Set up Environment.java" />
@@ -371,7 +377,8 @@
     <MESSAGE value="check 'this' is being used within a function" />
     <MESSAGE value="Contructor using 'init'" />
     <MESSAGE value="'init' can only return 'this'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'init' can only return 'this'" />
+    <MESSAGE value="Add superclasses (no inheritance yet)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add superclasses (no inheritance yet)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
