@@ -34,6 +34,6 @@ public class LoxFunction implements LoxCallable {
 
     @Override
     public String toString() {
-        return "<fn " + declaration.name.lexeme + ">";
+        return "<Function: " + declaration.name.lexeme + ">";
     }
 }
